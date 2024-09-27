@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="288.0" prefWidth="448.0" style="-fx-background-color: aliceblue; -fx-border-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.htwocodingexam.ResultsController">
+   <children>
+      <Label alignment="CENTER" layoutX="131.0" layoutY="23.0" prefHeight="64.0" prefWidth="187.0" text="RESULT">
+         <font>
+            <Font name="Bell MT" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="98.0" prefHeight="26.0" prefWidth="35.0" text="A =">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label layoutX="146.0" layoutY="97.0" prefHeight="26.0" prefWidth="35.0" text="B =">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="216.0" layoutY="97.0" prefHeight="26.0" prefWidth="35.0" text="C =">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalAnswerA" layoutX="110.0" layoutY="98.0" prefHeight="26.0" prefWidth="35.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalAnswerB" layoutX="181.0" layoutY="96.0" prefHeight="26.0" prefWidth="35.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalAnswerC" layoutX="251.0" layoutY="96.0" prefHeight="26.0" prefWidth="35.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="97.0" prefHeight="26.0" prefWidth="51.0" text="TOTAL:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalAnswer" layoutX="339.0" layoutY="96.0" prefHeight="26.0" prefWidth="35.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="finalResults" layoutX="76.0" layoutY="124.0" prefHeight="96.0" prefWidth="301.0" wrapText="true">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="confirmButton" layoutX="168.0" layoutY="227.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="97.0" style="-fx-background-color: Green; -fx-border-radius: 34px; -fx-background-radius: 34px; -fx-border-color: lightgreen; -fx-cursor: hand;" text="CONFIRM" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium Cond" size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

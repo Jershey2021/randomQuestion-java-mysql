@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="361.0" prefWidth="520.0" style="-fx-background-color: yellow; -fx-background-radius: 32px; -fx-border-radius: 32px; -fx-border-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.htwocodingexam.StartController">
+   <children>
+      <Button fx:id="startQuizBtn" alignment="CENTER" layoutX="189.0" layoutY="195.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="143.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 32px; -fx-border-radius: 32px; -fx-cursor: hand;" text="PLAY">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+      </Button>
+      <Label layoutX="99.0" layoutY="108.0" prefHeight="56.0" prefWidth="322.0" text="RANDOM QUESTION">
+         <font>
+            <Font name="Bernard MT Condensed" size="45.0" />
+         </font>
+      </Label>
+      <Button fx:id="startCloseBtn" layoutX="480.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-background-radius: 50px; -fx-border-radius: 50px; -fx-cursor: hand;" text="X" textFill="RED">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
